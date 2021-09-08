@@ -1,6 +1,7 @@
 # Taller consumir y generar un api - GIT
 
-Este aplicativo consume un api desplegada en heroku para consultar el mercado de valores
+Este aplicativo consume un api desplegada en heroku para consultar el clima y su link es
+https://arep-clima.herokuapp.com/
 
 
 ## Prerequisitos
@@ -10,7 +11,7 @@ Conocimientos básicos en java, y manejo de URL.
 ## Comandos
 Para compilar y correr las pruebas: ```mvn package```
 
-Para ejecutar y utilizar el programa: ```mvn exec:java -Dexec.mainClass="co.escuelaing.arep.lab1.App```
+Para ejecutar y utilizar el programa: ```mvn exec:java -Dexec.mainClass="co.escuelaing.arep.lab1.HttpServer```
 
 Para ejecutar las pruebas: ```mvn test```
 
