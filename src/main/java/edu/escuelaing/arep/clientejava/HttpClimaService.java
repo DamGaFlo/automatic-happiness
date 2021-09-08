@@ -5,23 +5,17 @@
  */
 package edu.escuelaing.arep.clientejava;
 
-/**
- *
- * @author Home
- */
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
-
 
 /**
  *
  * @author Home
  */
-public abstract class HttpStockService {
+public abstract class HttpClimaService {
     
     private static final String USER_AGENT = "Mozilla/5.0";
     
@@ -54,8 +48,8 @@ public abstract class HttpStockService {
     }
     
     public abstract String getURL();
-    public abstract void setStock(String stock);
-    public abstract void setFuncion(String funcion);
+    public abstract void setClima(String stock);
+
     
     
     

@@ -11,21 +11,21 @@ package edu.escuelaing.arep.clientejava;
  */
 public class CurrentServiceInstance {
     private static CurrentServiceInstance _instance = new CurrentServiceInstance();
-    private HttpStockService service;
+    private HttpClimaService service;
     
     private CurrentServiceInstance(){
-        service = new HerokuApi();
+        service = new OpenweatherApi();
     }
     
     public static CurrentServiceInstance getInstance(){
         return _instance;
     }
     
-    public HttpStockService getService(){
+    public HttpClimaService getService(){
         return service;
     }
     
-    public void setService(HttpStockService service){
+    public void setService(HttpClimaService service){
         this.service = service;
     }
     
